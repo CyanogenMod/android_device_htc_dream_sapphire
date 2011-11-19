@@ -83,5 +83,6 @@ ifndef WITH_DS_HTCACOUSTIC_HACK
 PRODUCT_COPY_FILES += \\
     vendor/htc/__DEVICE__/proprietary/AudioPara4.csv:system/etc/AudioPara4.csv
 endif
+EOF
 
 ./setup-makefiles.sh
